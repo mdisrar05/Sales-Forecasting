@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    height: 100%;
+}
+
+body{
+    text-align: center;
+    justify-content:center;
+    align-items: center;    
+    min-height: 93vh; /* Change from 93vh to 100% */
+    font-family: 'Jost', sans-serif;
+    background: url('C:\Users\Mohammed Israr I\Downloads\Sales_forecasting\New folder\app\src\assets\sales_login _enhanced.jpg') no-repeat center center fixed;
+    background-size: cover;
+}

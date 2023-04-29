@@ -1,0 +1,94 @@
+body{
+	padding-left: 18px;
+	margin: 10px;
+	display: flex;
+	justify-content:left;
+	align-items: center;	
+	min-height: 93vh;
+	font-family: 'Jost', sans-serif;
+	background: url('/assets/sales_login_enhanced.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.main{	
+	width: 350px;
+	height: 500px;
+	background: linear-gradient(to right, #87CEFA, #FFC0CB);
+	overflow: hidden;
+	border-radius: 30px;
+	
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color:#000000;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #ffffff;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;	
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #000000;
+	background: linear-gradient(to right, #87CEFA, #FFC0CB);
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 500px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	
+	background: #2ec5fc;
+
+
+	
+}
+.login{
+	height: 460px;
+	background: rgb(255, 210, 210);
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #000000;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-600px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}

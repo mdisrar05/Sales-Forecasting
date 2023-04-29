@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.container {
+  padding-left: 18px;
+  background: #55bbf3;
+	margin: 10px;
+	display: flex;
+	justify-content:left;
+	align-items: center;	
+	min-height: 93vh;
+	font-family: 'Jost', sans-serif;
+  background: url('/assets/sales_login_enhanced.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+  border-radius: 60px;
+  width: 600px;
+  height: 260px;
+  background: linear-gradient(to right, #87CEFA, #FFC0CB);
+  padding: 10px 30px 40px;
+
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+
+.drop_box {
+  margin: 10px 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.drop_box h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.drop_box p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #492f2f;
+
+  padding: 12px 20px;
+  border-radius: 4px;
+  display: inline;
+}
+.data{
+    margin: 20px;
+}
+#sub{
+  margin: 10px;
+  background: #55bbf3;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+#sub:hover{
+background-color: #ffffff;
+color: #005af0;
+border: none;
+cursor: pointer;
+}
+.periodicity{
+  display: inline;
+}
